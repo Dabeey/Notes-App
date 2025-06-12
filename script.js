@@ -42,11 +42,8 @@ showNotes = () => {
     notesContainer.innerHTML = '';
     const saved = localStorage.getItem('notes');
     if (saved) {
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = saved;
-        tempDiv.querySelectorAll('.note').forEach(noteDiv => {
-            createNote(noteDiv.querySelector('.input-box').innerHTML);
-        });
+        const notes = JSON.parse(saved);
+        notes.forEach(content => createNote(content));
     }
 }
 
