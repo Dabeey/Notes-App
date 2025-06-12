@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![Notes Pal Screenshot](images/screenshot.png) <!-- Add a screenshot if available -->
+![Notes Pal Screenshot](images/banner.png) <!-- Add a screenshot if available -->
 
 Notes Pal is a simple, beautiful, and fast web-based notes app. Effortlessly create, edit, and delete notes right in your browser. All your notes are stored locally and persist between sessions, ensuring privacy and instant access.
 
